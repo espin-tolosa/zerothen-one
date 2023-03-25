@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@ts-stack/markdown": "^1.4.0"
+  }
+}
