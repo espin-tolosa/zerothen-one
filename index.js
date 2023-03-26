@@ -8,13 +8,13 @@ const page = () => `
 <!DOCTYPE html>
 <html>
 <head>
-<title>Title of the document</title>
+<title>0 << 1</title>
 </head>
 
 <body>
 
 
-<div class="container">
+<div class="container prevent-select">
   <span class="box">
     <h2>What do you wish more?</h2>
   </span>
@@ -33,6 +33,11 @@ const page = () => `
   height: 100vh;
 }
 
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
 .box {
   padding: 0 50px 0 10px;
 }
