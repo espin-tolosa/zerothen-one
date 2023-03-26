@@ -35,8 +35,6 @@ const page = () => `
 
 .box {
   padding: 0 50px 0 10px;
-  border: 2px solid #656464;
-  border-radius: 10px;
 }
 
 .box h2 {
@@ -55,7 +53,7 @@ const page = () => `
   content: "";
   width: 5px;
   height: 20px;
-  background: #ec7fff;
+  background: #000;
   display: inline-block;
   animation: cursor-blink 1.5s steps(2) infinite;
 }
